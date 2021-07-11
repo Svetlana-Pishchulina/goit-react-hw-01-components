@@ -1,0 +1,15 @@
+.friend_list {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 240px;
+}
+.friend_list_item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  display: flex;
+  align-items: center;
+}

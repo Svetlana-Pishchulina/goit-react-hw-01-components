@@ -1,0 +1,37 @@
+.statistics {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.stat_list {
+  display: flex;
+  background-color: aquamarine;
+}
+.item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 48px;
+}
+.label {
+  display: block;
+
+  font-size: 12px;
+}
+.percentage {
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.percentage::after {
+  content: "%";
+}
